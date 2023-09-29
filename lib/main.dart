@@ -90,89 +90,115 @@ class _CalculatorState extends State<Calculator> {
   }
 
   Widget buildButton(String buttonText) {
-    return Expanded(
-      child: OutlinedButton(
-        child: Text(
-          buttonText,
-          style: const TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            color: Colors.white,
+    return ElevatedButton(
+      style: ElevatedButton.styleFrom(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(100),
           ),
+          backgroundColor: Colors.black),
+      child: Text(
+        buttonText,
+        style: const TextStyle(
+          fontSize: 20.0,
+          fontWeight: FontWeight.bold,
+          color: Colors.white,
         ),
-        onPressed: () {
-          buttonPressed(buttonText);
-        },
       ),
+      onPressed: () {
+        buttonPressed(buttonText);
+      },
     );
   }
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.grey[850],
-          title: const Text('Calculator'),
-        ),
+    return Scaffold(
+      appBar: AppBar(
         backgroundColor: Colors.grey[850],
-        body: Column(
-          children: [
-            Spacer(),
-            Container(
-              alignment: Alignment.bottomRight,
-              child: Text(
-                output,
-                style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    color: Colors.white),
+        title: const Text('Calculator'),
+      ),
+      backgroundColor: Colors.grey[850],
+      body: Column(
+        children: [
+          const Spacer(),
+          Container(
+            alignment: Alignment.bottomRight,
+            child: Text(
+              output,
+              style: const TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20,
+                  color: Colors.white),
+            ),
+          ),
+          Column(
+            children: [
+              Row(
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  buildButton('C'),
+                  buildButton('/'),
+                  buildButton('+'),
+                  buildButton('-'),
+                ],
               ),
-            ),
-            Column(
-              children: [
-                Row(
-                  children: [
-                    buildButton('C'),
-                    buildButton('/'),
-                    buildButton('+'),
-                    buildButton('-'),
-                  ],
-                ),
-                Row(
-                  children: [
-                    buildButton('7'),
-                    buildButton('8'),
-                    buildButton('9'),
-                    buildButton('x'),
-                  ],
-                ),
-                Row(
-                  children: [
-                    buildButton('3'),
-                    buildButton('4'),
-                    buildButton('5'),
-                    buildButton('6'),
-                  ],
-                ),
-                Row(
-                  children: [
-                    buildButton('0'),
-                    buildButton('1'),
-                    buildButton('2'),
-                    buildButton('3'),
-                  ],
-                ),
-                Row(
-                  children: [
-                    buildButton('.'),
-                    buildButton('='),
-                  ],
-                ),
-              ],
-            ),
-          ],
-        ),
+              const SizedBox(
+                height: 15,
+              ),
+              Row(
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  buildButton('7'),
+                  buildButton('8'),
+                  buildButton('9'),
+                  buildButton('x'),
+                ],
+              ),
+              const SizedBox(
+                height: 15,
+              ),
+              Row(
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  buildButton('3'),
+                  buildButton('4'),
+                  buildButton('5'),
+                  buildButton('6'),
+                ],
+              ),
+              const SizedBox(
+                height: 15,
+              ),
+              Row(
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  buildButton('0'),
+                  buildButton('1'),
+                  buildButton('2'),
+                  buildButton('3'),
+                ],
+              ),
+              const SizedBox(
+                height: 15,
+              ),
+              Row(
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  buildButton('.'),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  buildButton('='),
+                ],
+              ),
+            ],
+          ),
+        ],
       ),
     );
   }
