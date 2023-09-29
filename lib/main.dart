@@ -33,9 +33,9 @@ class _CalculatorState extends State<Calculator> {
         buttonText == '/' ||
         buttonText == 'x') {
       if (operand.contains('+') ||
-          operand.contains('+') ||
-          operand.contains('+') ||
-          operand.contains('+')) {
+          operand.contains('-') ||
+          operand.contains('/') ||
+          operand.contains('x')) {
         num2 = double.parse(output);
         if (operand == '+') {
           _output = (num1 + num2).toString();
@@ -49,6 +49,7 @@ class _CalculatorState extends State<Calculator> {
         if (operand == '/') {
           _output = (num1 / num2).toString();
         }
+
         num1 = 0;
         num2 = 0;
         operand = buttonText;
@@ -122,6 +123,7 @@ class _CalculatorState extends State<Calculator> {
         children: [
           const Spacer(),
           Container(
+            padding: const EdgeInsets.fromLTRB(0, 0, 15, 15),
             alignment: Alignment.bottomRight,
             child: Text(
               output,
@@ -132,6 +134,7 @@ class _CalculatorState extends State<Calculator> {
             ),
           ),
           Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Row(
                 mainAxisSize: MainAxisSize.max,
@@ -187,14 +190,15 @@ class _CalculatorState extends State<Calculator> {
               ),
               Row(
                 mainAxisSize: MainAxisSize.max,
-                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
+                  buildButton('00'),
                   buildButton('.'),
-                  const SizedBox(
-                    width: 10,
-                  ),
                   buildButton('='),
                 ],
+              ),
+              const SizedBox(
+                height: 10,
               ),
             ],
           ),
