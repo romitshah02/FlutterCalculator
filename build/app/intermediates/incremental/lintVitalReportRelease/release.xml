@@ -4,10 +4,10 @@
     minSdkVersion="19"
     targetSdkVersion="33"
     shrinking="true"
-    mergedManifest="/home/romit/Documents/flutter_projects/calculator/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
-    manifestMergeReport="/home/romit/Documents/flutter_projects/calculator/build/app/outputs/logs/manifest-merger-release-report.txt"
-    proguardFiles="/home/romit/Documents/flutter_projects/calculator/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.0:/home/romit/snap/flutter/common/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
-    partialResultsDir="/home/romit/Documents/flutter_projects/calculator/build/app/intermediates/lint_vital_partial_results/release/out">
+    mergedManifest="/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    manifestMergeReport="/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.0:/home/romit/snap/flutter/common/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/intermediates/lint_vital_partial_results/release/out">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>
@@ -32,9 +32,9 @@
         value="android.app.Application" />
   </manifestPlaceholders>
   <mainArtifact
-      classOutputs="/home/romit/Documents/flutter_projects/calculator/build/app/intermediates/javac/release/classes:/home/romit/Documents/flutter_projects/calculator/build/app/tmp/kotlin-classes/release:/home/romit/Documents/flutter_projects/calculator/build/app/kotlinToolingMetadata:/home/romit/Documents/flutter_projects/calculator/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      classOutputs="/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/intermediates/javac/release/classes:/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/tmp/kotlin-classes/release:/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/kotlinToolingMetadata:/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
       applicationId="com.example.calculator"
-      generatedSourceFolders="/home/romit/Documents/flutter_projects/calculator/build/app/generated/ap_generated_sources/release/out:/home/romit/Documents/flutter_projects/calculator/build/app/generated/aidl_source_output_dir/release/out:/home/romit/Documents/flutter_projects/calculator/build/app/generated/source/buildConfig/release:/home/romit/Documents/flutter_projects/calculator/build/app/generated/renderscript_source_output_dir/release/out"
-      generatedResourceFolders="/home/romit/Documents/flutter_projects/calculator/build/app/generated/res/rs/release:/home/romit/Documents/flutter_projects/calculator/build/app/generated/res/resValues/release">
+      generatedSourceFolders="/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/generated/ap_generated_sources/release/out:/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/generated/aidl_source_output_dir/release/out:/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/generated/source/buildConfig/release:/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/generated/renderscript_source_output_dir/release/out"
+      generatedResourceFolders="/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/generated/res/rs/release:/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/generated/res/resValues/release">
   </mainArtifact>
 </variant>

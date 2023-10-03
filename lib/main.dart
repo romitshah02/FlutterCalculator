@@ -93,16 +93,16 @@ class _CalculatorState extends State<Calculator> {
   Widget buildButton(String buttonText) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(100),
-          ),
-          backgroundColor: Colors.black),
+          elevation: 10,
+          padding: const EdgeInsets.all(20),
+          shape: const CircleBorder(),
+          backgroundColor: buttonText == 'C' ? Colors.orange : Colors.black),
       child: Text(
         buttonText,
-        style: const TextStyle(
+        style: TextStyle(
           fontSize: 20.0,
           fontWeight: FontWeight.bold,
-          color: Colors.white,
+          color: buttonText == 'C' ? Colors.black : Colors.white,
         ),
       ),
       onPressed: () {
@@ -115,10 +115,10 @@ class _CalculatorState extends State<Calculator> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.grey[850],
+        backgroundColor: Colors.black,
         title: const Text('Calculator'),
       ),
-      backgroundColor: Colors.grey[850],
+      backgroundColor: Colors.white,
       body: Column(
         children: [
           const Spacer(),
@@ -130,45 +130,30 @@ class _CalculatorState extends State<Calculator> {
               style: const TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 20,
-                  color: Colors.white),
+                  color: Colors.black),
             ),
           ),
           Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Row(
-                mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  buildButton('C'),
                   buildButton('/'),
-                  buildButton('+'),
-                  buildButton('-'),
-                ],
-              ),
-              const SizedBox(
-                height: 15,
-              ),
-              Row(
-                mainAxisSize: MainAxisSize.max,
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  buildButton('7'),
-                  buildButton('8'),
-                  buildButton('9'),
                   buildButton('x'),
+                  buildButton('-'),
+                  buildButton('+'),
                 ],
               ),
               const SizedBox(
                 height: 15,
               ),
               Row(
-                mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  buildButton('3'),
-                  buildButton('4'),
-                  buildButton('5'),
+                  buildButton('9'),
+                  buildButton('8'),
+                  buildButton('7'),
                   buildButton('6'),
                 ],
               ),
@@ -176,24 +161,33 @@ class _CalculatorState extends State<Calculator> {
                 height: 15,
               ),
               Row(
-                mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  buildButton('0'),
-                  buildButton('1'),
-                  buildButton('2'),
+                  buildButton('5'),
+                  buildButton('4'),
                   buildButton('3'),
+                  buildButton('2'),
                 ],
               ),
               const SizedBox(
                 height: 15,
               ),
               Row(
-                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  buildButton('1'),
+                  buildButton('0'),
+                  buildButton('.'),
+                  buildButton('00'),
+                ],
+              ),
+              const SizedBox(
+                height: 15,
+              ),
+              Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  buildButton('00'),
-                  buildButton('.'),
+                  buildButton('C'),
                   buildButton('='),
                 ],
               ),

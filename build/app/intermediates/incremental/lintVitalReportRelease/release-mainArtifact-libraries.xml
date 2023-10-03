@@ -1,12 +1,12 @@
 <libraries>
   <library
-      name="__local_aars__:/home/romit/Documents/flutter_projects/calculator/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/home/romit/Documents/flutter_projects/calculator/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/home/romit/Documents/flutter_projects/calculator/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
-      name="io.flutter:flutter_embedding_release:1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8@jar"
-      jars="/home/romit/.gradle/caches/modules-2/files-2.1/io.flutter/flutter_embedding_release/1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8/813ab6751900c2054428802c31ff007468395731/flutter_embedding_release-1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8.jar"
-      resolved="io.flutter:flutter_embedding_release:1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8"/>
+      name="io.flutter:flutter_embedding_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar"
+      jars="/home/romit/.gradle/caches/modules-2/files-2.1/io.flutter/flutter_embedding_release/1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b/625ab2d9b2a61586c9d5fb689e42c83634d33562/flutter_embedding_release-1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b.jar"
+      resolved="io.flutter:flutter_embedding_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"/>
   <library
       name="androidx.window:window-java:1.0.0-beta04@aar"
       jars="/home/romit/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/jars/classes.jar"
@@ -46,17 +46,17 @@
       jars="/home/romit/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.7.10/d70d7d2c56371f7aa18f32e984e3e2e998fe9081/kotlin-stdlib-jdk8-1.7.10.jar"
       resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"/>
   <library
-      name="io.flutter:armeabi_v7a_release:1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8@jar"
-      jars="/home/romit/.gradle/caches/modules-2/files-2.1/io.flutter/armeabi_v7a_release/1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8/e8dbcc9915d10f51e79c18107650cea836d157c8/armeabi_v7a_release-1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8.jar"
-      resolved="io.flutter:armeabi_v7a_release:1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8"/>
+      name="io.flutter:armeabi_v7a_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar"
+      jars="/home/romit/.gradle/caches/modules-2/files-2.1/io.flutter/armeabi_v7a_release/1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b/d484e6572afe908e5546f3a7ef32877bbdb44753/armeabi_v7a_release-1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b.jar"
+      resolved="io.flutter:armeabi_v7a_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"/>
   <library
-      name="io.flutter:arm64_v8a_release:1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8@jar"
-      jars="/home/romit/.gradle/caches/modules-2/files-2.1/io.flutter/arm64_v8a_release/1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8/fea32d67c8873fe60b0d7de4235341957631d612/arm64_v8a_release-1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8.jar"
-      resolved="io.flutter:arm64_v8a_release:1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8"/>
+      name="io.flutter:arm64_v8a_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar"
+      jars="/home/romit/.gradle/caches/modules-2/files-2.1/io.flutter/arm64_v8a_release/1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b/7cffed1f9f7dd5e31fa6395dedc29a123705df2e/arm64_v8a_release-1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b.jar"
+      resolved="io.flutter:arm64_v8a_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"/>
   <library
-      name="io.flutter:x86_64_release:1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8@jar"
-      jars="/home/romit/.gradle/caches/modules-2/files-2.1/io.flutter/x86_64_release/1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8/70442dcca4edb863694cc92692bf493ca8b4e6e9/x86_64_release-1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8.jar"
-      resolved="io.flutter:x86_64_release:1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8"/>
+      name="io.flutter:x86_64_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar"
+      jars="/home/romit/.gradle/caches/modules-2/files-2.1/io.flutter/x86_64_release/1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b/cf5ac61c06ae175921cb70d0d4f9b0fe16befbd/x86_64_release-1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b.jar"
+      resolved="io.flutter:x86_64_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"/>
   <library
       name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar"
       jars="/home/romit/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.7.10/1ef73fee66f45d52c67e2aca12fd945dbe0659bf/kotlin-stdlib-jdk7-1.7.10.jar"

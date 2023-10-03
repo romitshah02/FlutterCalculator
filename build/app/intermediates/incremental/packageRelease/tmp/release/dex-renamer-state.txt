@@ -1,4 +1,4 @@
-#Tue Sep 26 21:13:57 IST 2023
-base.0=/home/romit/Documents/flutter_projects/calculator/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+#Sat Sep 30 02:06:51 IST 2023
+base.0=/media/romit/New Volume/Linux Storage/flutter_projects/calculator/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
