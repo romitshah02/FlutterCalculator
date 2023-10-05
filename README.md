@@ -2,8 +2,12 @@
 
 A simple calculator using flutter
 
-![WhatsApp Image 2023-10-05 at 4 45 11 PM(1)](https://github.com/romitshah02/FlutterCalculator/assets/122880565/1d551ab9-f87c-4b3d-a02a-840046fc9b68)
-![WhatsApp Image 2023-10-05 at 4 45 11 PM](https://github.com/romitshah02/FlutterCalculator/assets/122880565/320e22fa-7cd7-4b8a-87ba-3ea18494c9ef)
+
+
+
+<img src ="https://github.com/romitshah02/FlutterCalculator/assets/122880565/1d551ab9-f87c-4b3d-a02a-840046fc9b68" width = 100 height = 100 >
+
+<img src ="https://github.com/romitshah02/FlutterCalculator/assets/122880565/320e22fa-7cd7-4b8a-87ba-3ea18494c9ef" width = 100 height = 100 >
 
 ## Getting Started
 
